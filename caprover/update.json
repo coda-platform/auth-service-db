@@ -1,0 +1,19 @@
+{
+    "appName": "auth-service-db",
+    "instanceCount": 1,
+    "notExposeAsWebApp": true,
+    "envVars": [
+        {
+            "key": "AUTH_SERVICE_DB_USERNAME",
+            "value": "$AUTH_SERVICE_DB_USERNAME"
+        },
+        {
+            "key": "AUTH_SERVICE_DB_PASSWORD",
+            "value": "$AUTH_SERVICE_DB_PASSWORD"
+        },
+        {
+            "key": "AUTH_SERVICE_DB_NAME",
+            "value": "$AUTH_SERVICE_DB_NAME"
+        }
+    ]
+}
